@@ -24,7 +24,7 @@ function App() {
 					{['M', 'T', 'W', 'T', 'F'].map((day, index) => (
 						<div
 							key={index}
-							className={`size-12 border border-black flex justify-center items-center text-white text-2xl font-bold cursor-pointer ${
+							className={`size-14 border border-black flex justify-center items-center text-white text-2xl font-bold cursor-pointer ${
 								tab === index && 'bg-red-400'
 							}`}
 							onClick={() => setTab(index)}
