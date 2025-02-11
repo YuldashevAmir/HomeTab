@@ -20,7 +20,7 @@ export const timeTable: ITimeTable = {
 		{ title: 'SaS', room: 'B202', time: '11:00' },
 		{ title: 'P&S', room: 'B209', time: '14:00' },
 		{ title: 'UP', room: 'B209', time: '15:30' },
-		{ title: 'UAH', room: 'B304', time: '17:00' },
+		{ title: 'UAH', room: 'B304', time: '17:30' },
 	],
 	3: [
 		{ title: 'ItBA', room: 'A605', time: '11:00' },
