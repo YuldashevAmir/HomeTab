@@ -34,7 +34,7 @@ function App() {
 					))}
 				</div>
 				<div>
-					{timeTable[tab].map(lecture => (
+					{timeTable[tab]?.map(lecture => (
 						<div className='mt-4 flex gap-4 text-white'>
 							<span className='font-bold text-xl'>{lecture.title}</span>
 							<span className='font-semibold text-lg'>{lecture.room}</span>
