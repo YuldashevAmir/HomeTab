@@ -9,7 +9,7 @@ function App() {
 
 	return (
 		<div className='w-screen h-screen overflow-hidden bg-[#34344A]'>
-			<div className='max-w-[500px] pt-16 md:pt-32 lg:pt-56 mx-auto lg:px-0 px-6'>
+			<div className='max-w-[500px] pt-24 md:pt-32 lg:pt-40 mx-auto lg:px-0 px-6'>
 				<div className='flex flex-wrap gap-12'>
 					{links.map(link => (
 						<Button
