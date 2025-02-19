@@ -7,7 +7,7 @@ interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 export const Button: FC<IButtonProps> = ({ children, ...props }) => {
 	return (
-		<button {...props}>
+		<button className='w-20 h-16 md:w-24 md:h-20 lg:w-28 lg:h-24' {...props}>
 			<span></span>
 			<span></span>
 			<span></span>

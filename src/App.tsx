@@ -8,15 +8,15 @@ function App() {
 	const [tab, setTab] = useState<number>(new Date().getDay() - 1)
 
 	return (
-		<div className='w-screen h-screen overflow-hidden bg-[#34344A]'>
+		<div className='w-screen h-screen overflow-x-hidden bg-[#34344A]'>
 			<div className='max-w-[500px] pt-24 md:pt-32 lg:pt-40 mx-auto lg:px-0 px-6'>
-				<div className='flex flex-wrap gap-12'>
+				<div className='flex flex-wrap gap-8 md:gap-10 lg:gap-12'>
 					{links.map(link => (
 						<Button
 							key={link.link}
 							onClick={() => window.open(link.link, '_blank')}
 						>
-							<img className='size-16' src={link.icon} />
+							<img className='size-10 md:size-12 lg:size-16' src={link.icon} />
 						</Button>
 					))}
 				</div>

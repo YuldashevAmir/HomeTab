@@ -2,8 +2,6 @@ button {
 	transform: rotate(-15deg) skew(15deg);
 	transform-style: preserve-3d;
 	position: relative;
-	width: 100px;
-	height: 80px;
 	border: none;
 	background: transparent;
 	font-family: inherit;
